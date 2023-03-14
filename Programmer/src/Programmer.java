@@ -1,12 +1,16 @@
 public class Programmer {
 
-        //Variables
         public String name;
         public int age;
         public boolean wearsGlasses;
 
-        //Methods
-        public void drinkCoffee(){
+    public Programmer(String name, int age, boolean wearsGlasses) {
+        this.name = name;
+        this.age = age;
+        this.wearsGlasses = wearsGlasses;
+    }
+
+    public void drinkCoffee(){
             System.out.println("Espresso is the secret!");
         }
         public void printDetails(){
